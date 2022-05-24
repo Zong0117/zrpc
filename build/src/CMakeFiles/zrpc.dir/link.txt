@@ -1,1 +1,2 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libzrpc.so -o ../../lib/libzrpc.so CMakeFiles/zrpc.dir/zrpcapplication.cpp.o CMakeFiles/zrpc.dir/zrpcconfig.cpp.o CMakeFiles/zrpc.dir/zrpcprovider.cpp.o   -L/home/zong/projects/zrpc/lib 
+/bin/ar qc ../../lib/libzrpc.a  CMakeFiles/zrpc.dir/zrpcapplication.cpp.o CMakeFiles/zrpc.dir/zrpcconfig.cpp.o CMakeFiles/zrpc.dir/zrpcprovider.cpp.o
+/bin/ranlib ../../lib/libzrpc.a

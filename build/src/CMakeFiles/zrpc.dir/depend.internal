@@ -9,5 +9,7 @@ src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o
  /home/zong/projects/zrpc/src/include/zrpcconfig.h
  /home/zong/projects/zrpc/src/zrpcconfig.cpp
 src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o
+ ../src/include/zrpcapplication.h
+ ../src/include/zrpcconfig.h
  ../src/include/zrpcprovider.h
  /home/zong/projects/zrpc/src/zrpcprovider.cpp

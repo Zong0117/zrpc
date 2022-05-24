@@ -10,6 +10,7 @@ public:
     static void Init(int argc, char** argv);
     //单例接口
     static ZrpcApplication& getInstance();
+    static ZrpcConfig& getConfig(){ return m_config; };
 private:
     static ZrpcConfig m_config;
 

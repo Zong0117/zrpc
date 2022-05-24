@@ -8,6 +8,8 @@ src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.o: ../src/zrpcapplication.cpp
 src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o: ../src/include/zrpcconfig.h
 src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o: ../src/zrpcconfig.cpp
 
+src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o: ../src/include/zrpcapplication.h
+src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o: ../src/include/zrpcconfig.h
 src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o: ../src/include/zrpcprovider.h
 src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o: ../src/zrpcprovider.cpp
 
