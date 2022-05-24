@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/zrpcapplication.h
+zrpcconfig.h
+../src/include/zrpcconfig.h
+
+../src/include/zrpcconfig.h
+unordered_map
+-
+
+../src/include/zrpcprovider.h
+google/protobuf/service.h
+../src/include/google/protobuf/service.h
+
+/home/zong/projects/zrpc/src/include/zrpcconfig.h
+unordered_map
+-
+
+/home/zong/projects/zrpc/src/zrpcapplication.cpp
+zrpcapplication.h
+/home/zong/projects/zrpc/src/zrpcapplication.h
+iostream
+-
+unistd.h
+-
+
+/home/zong/projects/zrpc/src/zrpcconfig.cpp
+./include/zrpcconfig.h
+/home/zong/projects/zrpc/src/include/zrpcconfig.h
+iostream
+-
+fstream
+-
+
+/home/zong/projects/zrpc/src/zrpcprovider.cpp
+zrpcprovider.h
+/home/zong/projects/zrpc/src/zrpcprovider.h
+
