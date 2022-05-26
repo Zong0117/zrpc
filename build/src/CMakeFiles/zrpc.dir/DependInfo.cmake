@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zong/projects/zrpc/src/package.pb.cc" "/home/zong/projects/zrpc/build/src/CMakeFiles/zrpc.dir/package.pb.cc.o"
   "/home/zong/projects/zrpc/src/zrpcapplication.cpp" "/home/zong/projects/zrpc/build/src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.o"
   "/home/zong/projects/zrpc/src/zrpcconfig.cpp" "/home/zong/projects/zrpc/build/src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o"
   "/home/zong/projects/zrpc/src/zrpcprovider.cpp" "/home/zong/projects/zrpc/build/src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o"

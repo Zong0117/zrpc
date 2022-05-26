@@ -1,1 +1,1 @@
-/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/provider.dir/userservice.cpp.o CMakeFiles/provider.dir/__/user.pb.cc.o  -o ../../../bin/provider   -L/home/zong/projects/zrpc/lib  -Wl,-rpath,/home/zong/projects/zrpc/lib ../../../lib/libzrpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/provider.dir/userservice.cpp.o CMakeFiles/provider.dir/__/user.pb.cc.o  -o ../../../bin/provider   -L/home/zong/projects/zrpc/lib  -Wl,-rpath,/home/zong/projects/zrpc/lib ../../../lib/libzrpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread 

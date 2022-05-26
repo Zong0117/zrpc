@@ -57,47 +57,61 @@ include src/CMakeFiles/zrpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/zrpc.dir/flags.make
 
+src/CMakeFiles/zrpc.dir/package.pb.cc.o: src/CMakeFiles/zrpc.dir/flags.make
+src/CMakeFiles/zrpc.dir/package.pb.cc.o: ../src/package.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/zrpc.dir/package.pb.cc.o"
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zrpc.dir/package.pb.cc.o -c /home/zong/projects/zrpc/src/package.pb.cc
+
+src/CMakeFiles/zrpc.dir/package.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zrpc.dir/package.pb.cc.i"
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zong/projects/zrpc/src/package.pb.cc > CMakeFiles/zrpc.dir/package.pb.cc.i
+
+src/CMakeFiles/zrpc.dir/package.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zrpc.dir/package.pb.cc.s"
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zong/projects/zrpc/src/package.pb.cc -o CMakeFiles/zrpc.dir/package.pb.cc.s
+
 src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.o: src/CMakeFiles/zrpc.dir/flags.make
 src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.o: ../src/zrpcapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.o"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zrpc.dir/zrpcapplication.cpp.o -c /home/zong/projects/zrpc/src/zrpcapplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.o"
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zrpc.dir/zrpcapplication.cpp.o -c /home/zong/projects/zrpc/src/zrpcapplication.cpp
 
 src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zrpc.dir/zrpcapplication.cpp.i"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zong/projects/zrpc/src/zrpcapplication.cpp > CMakeFiles/zrpc.dir/zrpcapplication.cpp.i
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zong/projects/zrpc/src/zrpcapplication.cpp > CMakeFiles/zrpc.dir/zrpcapplication.cpp.i
 
 src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zrpc.dir/zrpcapplication.cpp.s"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zong/projects/zrpc/src/zrpcapplication.cpp -o CMakeFiles/zrpc.dir/zrpcapplication.cpp.s
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zong/projects/zrpc/src/zrpcapplication.cpp -o CMakeFiles/zrpc.dir/zrpcapplication.cpp.s
 
 src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o: src/CMakeFiles/zrpc.dir/flags.make
 src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o: ../src/zrpcconfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zrpc.dir/zrpcconfig.cpp.o -c /home/zong/projects/zrpc/src/zrpcconfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o"
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zrpc.dir/zrpcconfig.cpp.o -c /home/zong/projects/zrpc/src/zrpcconfig.cpp
 
 src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zrpc.dir/zrpcconfig.cpp.i"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zong/projects/zrpc/src/zrpcconfig.cpp > CMakeFiles/zrpc.dir/zrpcconfig.cpp.i
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zong/projects/zrpc/src/zrpcconfig.cpp > CMakeFiles/zrpc.dir/zrpcconfig.cpp.i
 
 src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zrpc.dir/zrpcconfig.cpp.s"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zong/projects/zrpc/src/zrpcconfig.cpp -o CMakeFiles/zrpc.dir/zrpcconfig.cpp.s
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zong/projects/zrpc/src/zrpcconfig.cpp -o CMakeFiles/zrpc.dir/zrpcconfig.cpp.s
 
 src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o: src/CMakeFiles/zrpc.dir/flags.make
 src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o: ../src/zrpcprovider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zrpc.dir/zrpcprovider.cpp.o -c /home/zong/projects/zrpc/src/zrpcprovider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o"
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zrpc.dir/zrpcprovider.cpp.o -c /home/zong/projects/zrpc/src/zrpcprovider.cpp
 
 src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zrpc.dir/zrpcprovider.cpp.i"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zong/projects/zrpc/src/zrpcprovider.cpp > CMakeFiles/zrpc.dir/zrpcprovider.cpp.i
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zong/projects/zrpc/src/zrpcprovider.cpp > CMakeFiles/zrpc.dir/zrpcprovider.cpp.i
 
 src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zrpc.dir/zrpcprovider.cpp.s"
-	cd /home/zong/projects/zrpc/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zong/projects/zrpc/src/zrpcprovider.cpp -o CMakeFiles/zrpc.dir/zrpcprovider.cpp.s
+	cd /home/zong/projects/zrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zong/projects/zrpc/src/zrpcprovider.cpp -o CMakeFiles/zrpc.dir/zrpcprovider.cpp.s
 
 # Object files for target zrpc
 zrpc_OBJECTS = \
+"CMakeFiles/zrpc.dir/package.pb.cc.o" \
 "CMakeFiles/zrpc.dir/zrpcapplication.cpp.o" \
 "CMakeFiles/zrpc.dir/zrpcconfig.cpp.o" \
 "CMakeFiles/zrpc.dir/zrpcprovider.cpp.o"
@@ -105,12 +119,13 @@ zrpc_OBJECTS = \
 # External object files for target zrpc
 zrpc_EXTERNAL_OBJECTS =
 
+../lib/libzrpc.a: src/CMakeFiles/zrpc.dir/package.pb.cc.o
 ../lib/libzrpc.a: src/CMakeFiles/zrpc.dir/zrpcapplication.cpp.o
 ../lib/libzrpc.a: src/CMakeFiles/zrpc.dir/zrpcconfig.cpp.o
 ../lib/libzrpc.a: src/CMakeFiles/zrpc.dir/zrpcprovider.cpp.o
 ../lib/libzrpc.a: src/CMakeFiles/zrpc.dir/build.make
 ../lib/libzrpc.a: src/CMakeFiles/zrpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libzrpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zong/projects/zrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/libzrpc.a"
 	cd /home/zong/projects/zrpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/zrpc.dir/cmake_clean_target.cmake
 	cd /home/zong/projects/zrpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zrpc.dir/link.txt --verbose=$(VERBOSE)
 

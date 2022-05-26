@@ -125,6 +125,33 @@ zrpc/fast:
 	cd /home/zong/projects/zrpc/build && $(MAKE) -f src/CMakeFiles/zrpc.dir/build.make src/CMakeFiles/zrpc.dir/build
 .PHONY : zrpc/fast
 
+package.pb.o: package.pb.cc.o
+
+.PHONY : package.pb.o
+
+# target to build an object file
+package.pb.cc.o:
+	cd /home/zong/projects/zrpc/build && $(MAKE) -f src/CMakeFiles/zrpc.dir/build.make src/CMakeFiles/zrpc.dir/package.pb.cc.o
+.PHONY : package.pb.cc.o
+
+package.pb.i: package.pb.cc.i
+
+.PHONY : package.pb.i
+
+# target to preprocess a source file
+package.pb.cc.i:
+	cd /home/zong/projects/zrpc/build && $(MAKE) -f src/CMakeFiles/zrpc.dir/build.make src/CMakeFiles/zrpc.dir/package.pb.cc.i
+.PHONY : package.pb.cc.i
+
+package.pb.s: package.pb.cc.s
+
+.PHONY : package.pb.s
+
+# target to generate assembly for a file
+package.pb.cc.s:
+	cd /home/zong/projects/zrpc/build && $(MAKE) -f src/CMakeFiles/zrpc.dir/build.make src/CMakeFiles/zrpc.dir/package.pb.cc.s
+.PHONY : package.pb.cc.s
+
 zrpcapplication.o: zrpcapplication.cpp.o
 
 .PHONY : zrpcapplication.o
@@ -215,6 +242,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... zrpc"
+	@echo "... package.pb.o"
+	@echo "... package.pb.i"
+	@echo "... package.pb.s"
 	@echo "... zrpcapplication.o"
 	@echo "... zrpcapplication.i"
 	@echo "... zrpcapplication.s"
